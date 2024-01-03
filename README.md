@@ -9,7 +9,7 @@
 
 kompass Logo is inspired from the insect name - 'Mantises' as they have triangular heads with flexible Necks. Also, the name is derived from two popular UI frameworks, Material UI and Ant Design (M-Ant-is).
 
-Mantis has Ant Design principal on top of the MAterial UI React component library.
+kompass has Ant Design principal on top of the MAterial UI React component library.
 
 :star: :star: :star: Support us by giving star (Top right of this page) if you like the theme :star: :star: :star:
 
