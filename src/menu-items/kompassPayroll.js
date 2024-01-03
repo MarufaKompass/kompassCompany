@@ -299,43 +299,82 @@ const kompassPayroll = {
         },
 
         {
-            id: 'doubleSubmenu',
-            title: 'Attendance',
-            type: 'collapse',
-            icon: icons.attendance,
-            // url: '/attendanceHistory', // Add the URL for the Attendance History page
-            // breadcrumbs: false,
-            children: [
-              {
-                id: 'daily_attendance',
-                title: 'Daily Attendance',
-                type: 'item',
-                url: '/submenuItem1',
-                breadcrumbs: false
-              },
-              {
-                id: 'claim_attendance',
-                title: 'Claim Attendance',
-                type: 'item',
-                url: '/submenuItem1',
-                breadcrumbs: false
-              },
-              {
-                id: 'monthly_attendance',
-                title: 'Monthly Attendance',
-                type: 'item',
-                url: '/submenuItem1',
-                breadcrumbs: false
-              },
-              {
-                id: 'employee_attendance',
-                title: 'Employee Attendance',
-                type: 'item',
-                url: '/submenuItem1',
-                breadcrumbs: false
-              }
-            ]
-          }
+          id: 'doubleSubmenu',
+          title: 'Attendance',
+          type: 'collapse',
+          icon: icons.attendance,
+          // url: '/attendanceHistory', // Add the URL for the Attendance History page
+          // breadcrumbs: false,
+          children: [
+            {
+              id: 'daily_attendance',
+              title: 'Daily Attendance',
+              type: 'item',
+              url: '/submenuItem1',
+              breadcrumbs: false
+            },
+            {
+              id: 'claim_attendance',
+              title: 'Claim Attendance',
+              type: 'item',
+              url: '/submenuItem1',
+              breadcrumbs: false
+            },
+            {
+              id: 'monthly_attendance',
+              title: 'Monthly Attendance',
+              type: 'item',
+              url: '/submenuItem1',
+              breadcrumbs: false
+            },
+            {
+              id: 'employee_attendance',
+              title: 'Employee Attendance',
+              type: 'item',
+              url: '/submenuItem1',
+              breadcrumbs: false
+            }
+          ]
+        },
+        {
+          id: 'salaryGenerate',
+          title: 'Salary generate',
+          type: 'item',
+          url: '/attendanceClaim',
+          breadcrumbs: false
+        },
+        {
+          id: 'salaryList',
+          title: 'Salary List',
+          type: 'item',
+          url: '/attendanceClaim',
+          breadcrumbs: false
+        },
+        {
+          id: 'generatePayment',
+          title: 'Generate Payment',
+          type: 'item',
+          url: '/attendanceClaim',
+          breadcrumbs: false
+        },
+
+        {
+          id: 'doubleSubmenu',
+          title: 'Reports',
+          type: 'collapse',
+          icon: icons.attendance,
+          // url: '/attendanceHistory', // Add the URL for the Attendance History page
+          // breadcrumbs: false,
+          children: [
+            {
+              id: 'salary',
+              title: 'Salary',
+              type: 'item',
+              url: '/submenuItem1',
+              breadcrumbs: false
+            }
+          ]
+        }
       ]
     }
   ]
