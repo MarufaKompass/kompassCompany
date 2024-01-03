@@ -102,7 +102,240 @@ const kompassPayroll = {
               breadcrumbs: false
             }
           ]
-        }
+        },
+
+        {
+          id: 'doubleSubmenu',
+          title: 'Grade Setup',
+          type: 'collapse',
+          icon: icons.attendance,
+          // url: '/attendanceHistory', // Add the URL for the Attendance History page
+          // breadcrumbs: false,
+          children: [
+            {
+              id: 'add_grade',
+              title: 'Add Grade',
+              type: 'item',
+              url: '/submenuItem1',
+              breadcrumbs: false
+            },
+            {
+              id: 'add_sub_grade',
+              title: 'Add Sub Grade',
+              type: 'item',
+              url: '/submenuItem2',
+              breadcrumbs: false
+            }
+          ]
+        },
+
+        {
+          id: 'doubleSubmenu',
+          title: 'Grade Setup',
+          type: 'collapse',
+          icon: icons.attendance,
+          // url: '/attendanceHistory', // Add the URL for the Attendance History page
+          // breadcrumbs: false,
+          children: [
+            {
+              id: 'add_bank',
+              title: 'Add Bank',
+              type: 'item',
+              url: '/submenuItem1',
+              breadcrumbs: false
+            }
+          ]
+        },
+        {
+          id: 'doubleSubmenu',
+          title: 'Payroll Employee',
+          type: 'collapse',
+          icon: icons.attendance,
+          // url: '/attendanceHistory', // Add the URL for the Attendance History page
+          // breadcrumbs: false,
+          children: [
+            {
+              id: 'add_employee',
+              title: 'Add Employee',
+              type: 'item',
+              url: '/submenuItem1',
+              breadcrumbs: false
+            },
+            {
+              id: 'employee_list',
+              title: 'Employee List',
+              type: 'item',
+              url: '/submenuItem2',
+              breadcrumbs: false
+            }
+          ]
+        },
+
+        {
+          id: 'doubleSubmenu',
+          title: 'Meal',
+          type: 'collapse',
+          icon: icons.attendance,
+          // url: '/attendanceHistory', // Add the URL for the Attendance History page
+          // breadcrumbs: false,
+          children: [
+            {
+              id: 'add_meal',
+              title: 'Add Meal',
+              type: 'item',
+              url: '/submenuItem1',
+              breadcrumbs: false
+            }
+          ]
+        },
+
+        {
+          id: 'doubleSubmenu',
+          title: 'Earned Wage',
+          type: 'collapse',
+          icon: icons.attendance,
+          // url: '/attendanceHistory', // Add the URL for the Attendance History page
+          // breadcrumbs: false,
+          children: [
+            {
+              id: 'list',
+              title: 'List',
+              type: 'item',
+              url: '/submenuItem1',
+              breadcrumbs: false
+            }
+          ]
+        },
+
+        {
+          id: 'doubleSubmenu',
+          title: 'IOU',
+          type: 'collapse',
+          icon: icons.attendance,
+          // url: '/attendanceHistory', // Add the URL for the Attendance History page
+          // breadcrumbs: false,
+          children: [
+            {
+              id: 'apply_list',
+              title: 'Apply List',
+              type: 'item',
+              url: '/submenuItem1',
+              breadcrumbs: false
+            },
+            {
+              id: 'settlement_list',
+              title: 'Settlement List',
+              type: 'item',
+              url: '/submenuItem1',
+              breadcrumbs: false
+            }
+          ]
+        },
+
+        {
+          id: 'doubleSubmenu',
+          title: 'Loan',
+          type: 'collapse',
+          icon: icons.attendance,
+          // url: '/attendanceHistory', // Add the URL for the Attendance History page
+          // breadcrumbs: false,
+          children: [
+            {
+              id: 'list',
+              title: 'List',
+              type: 'item',
+              url: '/submenuItem1',
+              breadcrumbs: false
+            }
+          ]
+        },
+        {
+          id: 'doubleSubmenu',
+          title: 'Leave',
+          type: 'collapse',
+          icon: icons.attendance,
+          // url: '/attendanceHistory', // Add the URL for the Attendance History page
+          // breadcrumbs: false,
+          children: [
+            {
+              id: 'requests',
+              title: 'Requests',
+              type: 'item',
+              url: '/submenuItem1',
+              breadcrumbs: false
+            },
+            {
+              id: 'approved',
+              title: 'Approved',
+              type: 'item',
+              url: '/submenuItem1',
+              breadcrumbs: false
+            },
+            {
+              id: 'decline',
+              title: 'Decline',
+              type: 'item',
+              url: '/submenuItem1',
+              breadcrumbs: false
+            }
+          ]
+        },
+        {
+          id: 'doubleSubmenu',
+          title: 'Provident Fund',
+          type: 'collapse',
+          icon: icons.attendance,
+          // url: '/attendanceHistory', // Add the URL for the Attendance History page
+          // breadcrumbs: false,
+          children: [
+            {
+              id: 'add_meal',
+              title: 'List',
+              type: 'item',
+              url: '/submenuItem1',
+              breadcrumbs: false
+            }
+          ]
+        },
+
+        {
+            id: 'doubleSubmenu',
+            title: 'Attendance',
+            type: 'collapse',
+            icon: icons.attendance,
+            // url: '/attendanceHistory', // Add the URL for the Attendance History page
+            // breadcrumbs: false,
+            children: [
+              {
+                id: 'daily_attendance',
+                title: 'Daily Attendance',
+                type: 'item',
+                url: '/submenuItem1',
+                breadcrumbs: false
+              },
+              {
+                id: 'claim_attendance',
+                title: 'Claim Attendance',
+                type: 'item',
+                url: '/submenuItem1',
+                breadcrumbs: false
+              },
+              {
+                id: 'monthly_attendance',
+                title: 'Monthly Attendance',
+                type: 'item',
+                url: '/submenuItem1',
+                breadcrumbs: false
+              },
+              {
+                id: 'employee_attendance',
+                title: 'Employee Attendance',
+                type: 'item',
+                url: '/submenuItem1',
+                breadcrumbs: false
+              }
+            ]
+          }
       ]
     }
   ]
