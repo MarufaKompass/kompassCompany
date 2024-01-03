@@ -6,7 +6,7 @@ import MainCard from 'components/MainCard';
 
 // ==============================|| STATISTICS - ECOMMERCE CARD  ||============================== //
 
-const DashboardNumbering = ({ title, count, icons,color ,borderColor}) => (
+const DashboardNumbering = ({ title, count, icons,color}) => (
   <MainCard contentSX={{ p: 3,backgroundColor:color }} >
     <Box sx={{ display: 'flex' }}>
       <Box width="100%">

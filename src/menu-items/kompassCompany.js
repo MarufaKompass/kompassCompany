@@ -19,9 +19,9 @@ const icons = {
 };
 // ==============================|| MENU ITEMS - UTILITIES ||============================== //
 
-const payroll = {
-  id: 'payroll',
-  title: 'My Payroll',
+const kompassCompany = {
+  id: 'company',
+  // title: 'kompass Company',
   type: 'group',
   children: [
     {
@@ -29,23 +29,6 @@ const payroll = {
       title: 'Organization Setup',
       type: 'collapse',
       icon: icons.leave,
-      // children: [
-      //   {
-      //     id: 'leaveApply',
-      //     title: 'Apply',
-      //     type: 'item',
-      //     url: '/leaveApply',
-      //     breadcrumbs: false
-      //   },
-      //   {
-      //     id: 'leaveList',
-      //     title: 'My Leave Book',
-      //     type: 'item',
-      //     url: '/leave/list',
-
-      //     breadcrumbs: false
-      //   }
-      // ]
       children: [
         {
           id: 'department',
@@ -200,14 +183,28 @@ const payroll = {
     //   ]
     // },
     {
-      id: 'attendance',
-      title: 'Attendance',
+      id: 'kompassConnect',
+      title: 'Kompass Connect',
       type: 'collapse',
       icon: icons.attendance,
       children: [
         {
-          id: 'attendanceClaim',
-          title: 'Attendance Claim',
+          id: 'meeting_purpose',
+          title: 'Meeting Purpose',
+          type: 'item',
+          url: '/attendanceClaim',
+          breadcrumbs: false
+        },
+        {
+          id: 'eventtype',
+          title: 'Event Type',
+          type: 'item',
+          url: '/attendanceClaim',
+          breadcrumbs: false
+        },
+        {
+          id: 'event',
+          title: 'Event',
           type: 'item',
           url: '/attendanceClaim',
           breadcrumbs: false
@@ -215,22 +212,50 @@ const payroll = {
 
         {
           id: 'doubleSubmenu',
-          title: 'Attendance History',
+          title: 'Meeting Reports',
           type: 'collapse',
           icon: icons.attendance,
           // url: '/attendanceHistory', // Add the URL for the Attendance History page
           // breadcrumbs: false,
           children: [
             {
-              id: 'submenuItem1',
-              title: 'Submenu Item 1',
+              id: 'meeting received',
+              title: 'Meeting Received',
               type: 'item',
               url: '/submenuItem1',
               breadcrumbs: false
             },
             {
-              id: 'submenuItem2',
-              title: 'Submenu Item 2',
+              id: 'meeting_sent',
+              title: 'Meeting Sent',
+              type: 'item',
+              url: '/submenuItem2',
+              breadcrumbs: false
+            },
+            {
+              id: 'successful_Meetings',
+              title: 'Successful Meetings',
+              type: 'item',
+              url: '/submenuItem2',
+              breadcrumbs: false
+            },
+            {
+              id: 'decline_meetings',
+              title: 'Decline Meetings',
+              type: 'item',
+              url: '/submenuItem2',
+              breadcrumbs: false
+            },
+            {
+              id: 'pending_meetings',
+              title: 'Pending Meetings',
+              type: 'item',
+              url: '/submenuItem2',
+              breadcrumbs: false
+            },
+            {
+              id: 'visitor',
+              title: 'Visitor',
               type: 'item',
               url: '/submenuItem2',
               breadcrumbs: false
@@ -242,4 +267,4 @@ const payroll = {
   ]
 };
 
-export default payroll;
+export default kompassCompany;
