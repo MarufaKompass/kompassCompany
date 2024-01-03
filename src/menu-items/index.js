@@ -1,7 +1,7 @@
 // project import
 import pages from './pages';
 import dashboard from './dashboard';
-import payroll from './payroll';
+import payroll from './kompassCompany';
 //import support from './support';
 import appoint from './appoint';
 
