@@ -1,0 +1,51 @@
+.datepicker {
+    width: 100%;
+    border:none;
+    border-bottom: 1px solid #d3d1d1;
+}
+.padding{
+    padding: 10px 10px 10px 0px;
+}
+.datepicker:hover{
+    border:none;
+    border-bottom: 1px solid #12a9b2;
+}
+.datepicker:focus{
+    border:none;
+    border-bottom: 1px solid #d3d1d1;
+}
+.width{
+    width: 100%;
+}
+
+.maxWidth{
+    width: 100%;
+}
+
+
+.earnWage{
+    border-bottom-color:#f5f5f5 ;
+}
+
+.react-datepicker-wrapper {
+    display: inline-block;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.react-datepicker-wrapper:focus{
+    border: 1px solid #12a9b2;
+}
+
+.MuiFormControl-root.css-1nrlq1o-MuiFormControl-root {
+    width: 100%;
+}
+
+
+.timePicker {
+    z-index: 9999; 
+  }
+
+  

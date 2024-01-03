@@ -1,0 +1,185 @@
+.datepicker {
+    width: 100%;
+    padding: 4px;
+    border-bottom: 1px solid #d3d1d1;
+    color: #939393;
+}
+.datepicker:hover{
+    border-bottom: 1px solid #096DD9;
+}
+.datepickeredit {
+    width: 100%;
+    padding: 4px;
+    border:0;
+    border-bottom: 1px solid #d3d1d1;
+    color: #939393;
+}
+.datepickeredit:hover{
+    border:0;
+    border-bottom: 2px solid #000;
+}
+.datepickeredit:focus{
+    border:0;
+    border-bottom: 2px solid #4682B4;
+}
+
+input:focus-visible {
+    outline: none;
+
+}
+.width{
+    width: 100%;
+}
+
+
+
+.applyMaxWidth{
+    width: 100%;
+
+}
+.maxWidth{
+  width: 100%;
+}
+
+#padding .css-1hp5nuz-MuiStack-root {
+    flex-direction: initial; 
+  }
+
+.applyDatepicker{
+    padding: 0px;
+    border: 1px solid #d3d1d1;
+    border-radius: 5px;
+    color: #939393;
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+}
+.applyDatepicker:hover{
+    border: 1px solid #096DD9;
+}
+
+.earnWage{
+    border-bottom: 1px solid #d3d1d1;
+    border-radius: 5px;
+    color: #939393;
+}
+
+
+.react-datepicker-wrapper {
+    display: inline-block;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.react-datepicker-wrapper:focus{
+    border: 1px solid #12a9b2;
+}
+
+.css-1hp5nuz-MuiStack-root {
+    flex-direction:column;
+}
+
+.css-zow5z4-MuiGrid-root>.MuiGrid-item {
+    padding-top: 8px;
+}
+
+.css-zow5z4-MuiGrid-root>.MuiGrid-item {
+    padding-left: 20px;
+}
+.css-4jnixx-MuiStack-root {
+    -webkit-flex-direction: column; 
+    flex-direction: column; 
+}
+
+.hover-paragraph {
+    background-color: #fff;
+    color: #f00;
+    border-radius: 5px;
+    border: 1px solid #12a9b2;
+    font-size: 10px;
+    height: 200px;
+    width: 300px;
+    z-index: 1;
+   
+}
+
+
+/* .css-1t7goe1-MuiGrid-root{
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 100%; 
+    
+} */
+
+.css-11p2uup-MuiSelect-select-MuiInputBase-input-MuiInput-input:focus {
+     outline: none; 
+}
+
+/* Customize scrollbar for webkit-based browsers */
+::-webkit-scrollbar {
+    width: 4px;
+    
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #12A9B2;
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #eee;
+    border-radius: 4px;
+  }
+  
+  ::-webkit-scrollbar-track:hover {
+    background-color: #ddd;
+  }
+  ::-webkit-scrollbar {
+    height: 4px;
+    
+}
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #12A9B2;
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #eee;
+    border-radius: 4px;
+  }
+  
+  ::-webkit-scrollbar-track:hover {
+    background-color: #ddd;
+  }
+  
+
+  .container {
+    overflow: scroll;
+    min-width:  500px;
+  }
+  
+  .container-notification {
+    overflow: scroll;
+    width: 720px; 
+  }
+  
+
+  .css-ccjy57-MuiInputBase-root-MuiInput-root-MuiSelect-root{
+    width: 100%;
+  }
