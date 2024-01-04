@@ -34,14 +34,14 @@ const kompassCompany = {
           id: 'department',
           title: 'Department',
           type: 'item',
-          url: '/leaveApply',
+          url: '/department',
           breadcrumbs: false
         },
         {
           id: 'designation',
           title: 'Designation',
           type: 'item',
-          url: '/leave/list',
+          url: '/designation',
 
           breadcrumbs: false
         },
@@ -49,7 +49,7 @@ const kompassCompany = {
           id: 'employee',
           title: 'Employee',
           type: 'item',
-          url: '/leave/list',
+          url: '/employee',
           breadcrumbs: false
         }
       ]
