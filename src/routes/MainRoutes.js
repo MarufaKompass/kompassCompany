@@ -1,7 +1,10 @@
 import Loadable from 'components/Loadable';
-import Designation from 'pages/components/organization/Designation';
-import Employee from 'pages/components/organization/Employee';
-
+import DeclineMeetings from 'pages/components/kompassConnect/meetingReports/DeclineMeetings';
+import MeetingReceived from 'pages/components/kompassConnect/meetingReports/MeetingReceived';
+import MeetingSent from 'pages/components/kompassConnect/meetingReports/MeetingSent';
+import PendingMeetings from 'pages/components/kompassConnect/meetingReports/PendingMeetings';
+import SuccessfulMeetings from 'pages/components/kompassConnect/meetingReports/SuccessfulMeetings';
+import Visitor from 'pages/components/kompassConnect/meetingReports/Visitor';
 
 import { Suspense, lazy } from 'react';
 import Typography from 'themes/overrides/Typography';
@@ -33,7 +36,7 @@ const MainLayout = Loadable(lazy(() => import('layout/MainLayout')));
 // const Salary = Loadable(lazy(() => import('pages/components-overview/salary/Salary')));
 // const AddForm = Loadable(lazy(() => import('pages/components-overview/appointment/AddForm')));
 // const VisitorPage = Loadable(lazy(() => import('pages/components-overview/appointment/VisitorPage')));
- const PrivateRoutes = Loadable(lazy(() => import('components/privateRoute/PrivateRoutes')));
+const PrivateRoutes = Loadable(lazy(() => import('components/privateRoute/PrivateRoutes')));
 // const ProvidentFund = Loadable(lazy(() => import('pages/components-overview/providentfund/ProvidentFund')));
 //  const Support = Loadable(lazy(() => import('pages/components-overview/support/Support')));
 // const Schedule = Loadable(lazy(() => import('pages/components-overview/Schedule/Schedule')));
@@ -47,6 +50,11 @@ const MainLayout = Loadable(lazy(() => import('layout/MainLayout')));
 // ==============================|| MAIN ROUTING ||============================== //
 const Department = Loadable(lazy(() => import('pages/components/organization/Department')));
 
+const Event = Loadable(lazy(() => import('pages/components/kompassConnect/Event')));
+const EventType = Loadable(lazy(() => import('pages/components/kompassConnect/EventType')));
+const MeetingPurpose = Loadable(lazy(() => import('pages/components/kompassConnect/MeetingPurpose')));
+const Designation = Loadable(lazy(() => import('pages/components/organization/Designation')));
+const Employee = Loadable(lazy(() => import('pages/components/organization/Employee')));
 const MainRoutes = {
   path: '/',
   element: (
@@ -441,13 +449,13 @@ const MainRoutes = {
     //   )
     // }
 
-     {
+    {
       path: 'department',
       element: (
         <Suspense fallback={<Typography>Loading...</Typography>}>
           {' '}
           <PrivateRoutes>
-           <Department></Department>
+            <Department></Department>
           </PrivateRoutes>
         </Suspense>
       )
@@ -458,7 +466,7 @@ const MainRoutes = {
         <Suspense fallback={<Typography>Loading...</Typography>}>
           {' '}
           <PrivateRoutes>
-        <Designation></Designation>
+            <Designation></Designation>
           </PrivateRoutes>
         </Suspense>
       )
@@ -469,7 +477,107 @@ const MainRoutes = {
         <Suspense fallback={<Typography>Loading...</Typography>}>
           {' '}
           <PrivateRoutes>
-          <Employee></Employee>
+            <Employee></Employee>
+          </PrivateRoutes>
+        </Suspense>
+      )
+    },
+    {
+      path: 'meetingPurpose',
+      element: (
+        <Suspense fallback={<Typography>Loading...</Typography>}>
+          {' '}
+          <PrivateRoutes>
+            <MeetingPurpose></MeetingPurpose>
+          </PrivateRoutes>
+        </Suspense>
+      )
+    },
+    {
+      path: 'eventType',
+      element: (
+        <Suspense fallback={<Typography>Loading...</Typography>}>
+          {' '}
+          <PrivateRoutes>
+            <EventType></EventType>
+          </PrivateRoutes>
+        </Suspense>
+      )
+    },
+    {
+      path: 'event',
+      element: (
+        <Suspense fallback={<Typography>Loading...</Typography>}>
+          {' '}
+          <PrivateRoutes>
+            <Event></Event>
+          </PrivateRoutes>
+        </Suspense>
+      )
+    },
+
+    {
+      path: 'meeting/meetingReceived',
+      element: (
+        <Suspense fallback={<Typography>Loading...</Typography>}>
+          {' '}
+          <PrivateRoutes>
+            <MeetingReceived></MeetingReceived>
+          </PrivateRoutes>
+        </Suspense>
+      )
+    },
+    {
+      path: 'meeting/meetingSent',
+      element: (
+        <Suspense fallback={<Typography>Loading...</Typography>}>
+          {' '}
+          <PrivateRoutes>
+            <MeetingSent></MeetingSent>
+          </PrivateRoutes>
+        </Suspense>
+      )
+    },
+    {
+      path: 'meeting/successfulMeetings',
+      element: (
+        <Suspense fallback={<Typography>Loading...</Typography>}>
+          {' '}
+          <PrivateRoutes>
+            <SuccessfulMeetings></SuccessfulMeetings>
+          </PrivateRoutes>
+        </Suspense>
+      )
+    },
+    {
+      path: 'meeting/declineMeetings',
+      element: (
+        <Suspense fallback={<Typography>Loading...</Typography>}>
+          {' '}
+          <PrivateRoutes>
+            <DeclineMeetings></DeclineMeetings>
+          </PrivateRoutes>
+        </Suspense>
+      )
+    },
+    {
+      path: 'meeting/pendingMeetings',
+      element: (
+        <Suspense fallback={<Typography>Loading...</Typography>}>
+          {' '}
+          <PrivateRoutes>
+            <PendingMeetings></PendingMeetings>
+          </PrivateRoutes>
+        </Suspense>
+      )
+    },
+    {
+      path: 'meeting/visitor',
+      element: (
+        <Suspense fallback={<Typography>Loading...</Typography>}>
+          {' '}
+          <PrivateRoutes>
+            <Visitor></Visitor>
           </PrivateRoutes>
         </Suspense>
       )

@@ -192,21 +192,21 @@ const kompassCompany = {
           id: 'meeting_purpose',
           title: 'Meeting Purpose',
           type: 'item',
-          url: '/attendanceClaim',
+          url: '/meetingPurpose',
           breadcrumbs: false
         },
         {
           id: 'eventtype',
           title: 'Event Type',
           type: 'item',
-          url: '/attendanceClaim',
+          url: '/eventType',
           breadcrumbs: false
         },
         {
           id: 'event',
           title: 'Event',
           type: 'item',
-          url: '/attendanceClaim',
+          url: '/event',
           breadcrumbs: false
         },
 
@@ -222,42 +222,42 @@ const kompassCompany = {
               id: 'meeting received',
               title: 'Meeting Received',
               type: 'item',
-              url: '/submenuItem1',
+              url: '/meeting/meetingReceived',
               breadcrumbs: false
             },
             {
               id: 'meeting_sent',
               title: 'Meeting Sent',
               type: 'item',
-              url: '/submenuItem2',
+              url: '/meeting/meetingSent',
               breadcrumbs: false
             },
             {
               id: 'successful_Meetings',
               title: 'Successful Meetings',
               type: 'item',
-              url: '/submenuItem2',
+              url: '/meeting/successfulMeetings',
               breadcrumbs: false
             },
             {
               id: 'decline_meetings',
               title: 'Decline Meetings',
               type: 'item',
-              url: '/submenuItem2',
+              url: '/meeting/declineMeetings',
               breadcrumbs: false
             },
             {
               id: 'pending_meetings',
               title: 'Pending Meetings',
               type: 'item',
-              url: '/submenuItem2',
+              url: '/meeting/pendingMeetings',
               breadcrumbs: false
             },
             {
               id: 'visitor',
               title: 'Visitor',
               type: 'item',
-              url: '/submenuItem2',
+              url: '/meeting/visitor',
               breadcrumbs: false
             }
           ]
